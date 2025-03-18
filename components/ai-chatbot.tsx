@@ -3,11 +3,11 @@
 import type React from "react"
 
 import { useState, useRef, useEffect } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { Avatar } from "@/components/ui/avatar"
-import { Card } from "@/components/ui/card"
+import { Button } from "./ui/button"
+import { Input } from "./ui/input"
+import { ScrollArea } from "./ui/scroll-area"
+import { Avatar } from "./ui/avatar"
+import { Card } from "./ui/card"
 import { Bot, Send, User } from "lucide-react"
 import { generateText } from "ai" // Import from AI SDK [^1]
 import { openai } from "@ai-sdk/openai" // Import from AI SDK OpenAI integration [^1]

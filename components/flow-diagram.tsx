@@ -16,7 +16,7 @@ import ReactFlow, {
 } from "reactflow"
 import "reactflow/dist/style.css"
 import ProgramNode from "./program-node"
-import { Button } from "@/components/ui/button"
+import { Button } from "./ui/button"
 import { Plus, Save } from "lucide-react"
 
 const nodeTypes = {

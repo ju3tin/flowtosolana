@@ -1,7 +1,7 @@
 import { memo } from "react"
 import { Handle, Position, type NodeProps } from "reactflow"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
+import { Badge } from "./ui/badge"
 
 type NodeData = {
   label: string
